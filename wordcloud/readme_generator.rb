@@ -32,15 +32,12 @@ class ReadmeGenerator
     markdown = <<~HTML
 # Hi I'm Jessica 👋
 
-[![Linkedin Badge](https://img.shields.io/badge/-jlim-blue?style=flat&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/jlim/)](https://www.linkedin.com/in/jlim/)
-[![Medium Badge](https://img.shields.io/badge/-@pedroffd-000000?style=flat&labelColor=000000&logo=Medium&link=https://medium.com/@pedroffd)](https://medium.com/@pedroffd)
-[![Website Badge](https://img.shields.io/badge/-pedroffd.me-47CCCC?style=flat&logo=Google-Chrome&logoColor=white&link=https://pedroffd.me)](https://pedroffd.me)
-[![Twitter Badge](https://img.shields.io/badge/-@__jesslim-1ca0f1?style=flat&labelColor=1ca0f1&logo=twitter&logoColor=white&link=https://twitter.com/_jesslim)](https://twitter.com/_jesslim)
-[![Instagram Badge](https://img.shields.io/badge/-@__jessicaalim-purple?style=flat&logo=instagram&logoColor=white&link=https://instagram.com/_jessicaalim/)](https://instagram.com/_jessicaalim)
-[![Gmail Badge](https://img.shields.io/badge/-pedroffd13-c14438?style=flat&logo=Gmail&logoColor=white&link=mailto:pedroffd13@gmail.com)](mailto:pedroffd13@gmail.com)
+[![Linkedin Badge](https://img.shields.io/badge/pedro-souza-blue?style=flat&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/pedro-henrique-souza/)](https://www.linkedin.com/in/pedro-henrique-souza/)
+[![Instagram Badge](https://img.shields.io/badge/-@o_pedro_souza-purple?style=flat&logo=instagram&logoColor=white&link=https://instagram.com/o_pedro_souza/)](https://instagram.com/o_pedro_souza)
+[![Gmail Badge](https://img.shields.io/badge/-pedro-c14438?style=flat&logo=Gmail&logoColor=white&link=mailto:pedro.alcarin@gmail.com)](mailto:pedro.alcarin@gmail.com)
 
-Welcome to my profile! I'm a student, aspiring [writer](https://medium.com/@_pedroffd), part-time coder and full-time adventure seeker. I am current interning @Wealthsimple, and have previously PM'd @Autodesk, SWE'd @Microsoft, and UX&D consulted @Deloitte. Thanks for visiting and I'd love to [connect](https://www.linkedin.com/in/jlim/)!
 
+Welcome to my profile! I'm a software engineer/project manager and a cook in my spare time. Currently I'm working as Project Manager at @popstand but in my spared I love to code and learn cool stuff
 
 ## Join the Community Word Cloud :cloud: :pencil2:
 
