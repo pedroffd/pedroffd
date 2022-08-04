@@ -6,7 +6,7 @@
 - 🔭 I'm working on becoming a top-notch front-end developer
 - 🌱 Studying about JAVASCRIPT, TYPESCRIPT, REACTJS, HOOKS, TAILWIND and NEXT JS
 - 👯 Currently working as project manager @popstand
-- 📫 How to contact me: pedro.alcarinv@gmail.com
+- 📫 How to contact me: pedro.alcarin@gmail.com
 - ⚡ Curiosity: I know how to cook
 
 #### Connect with me:
