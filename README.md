@@ -1,10 +1,10 @@
 # Hi, I'm Pedro Souza <img src="https://raw.githubusercontent.com/pedroffd/pedroffd/master/hi.gif" width="30px">
-### A passionate front-end developer
+### A passionate developer
 
 #### About me
 
-- 🔭 I'm working on becoming a top-notch front-end developer
-- 🌱 Studying about JAVASCRIPT, TYPESCRIPT, REACTJS, HOOKS, TAILWIND and NEXT JS
+- 🔭 I'm working on becoming a top-notch developer
+- 🌱 Studying about JAVASCRIPT, TYPESCRIPT, REACTJS, HOOKS, TAILWIND, NEXT JS, NodeJS
 - 👯 Currently working as project manager @popstand
 - 📫 How to contact me: pedro.alcarin@gmail.com
 - ⚡ Curiosity: I know how to cook
