@@ -3,8 +3,8 @@
 
 #### About me
 
-- 🔭 I'm working on becoming a top-notch developer
-- 🌱 Studying about JAVASCRIPT, TYPESCRIPT, REACTJS, HOOKS, TAILWIND, NEXT JS, NodeJS
+- 🔭 I'm working on becoming a top-notch developer and create awesome business
+- 🌱 Working wih JAVASCRIPT, TYPESCRIPT, REACTJS, HOOKS, TAILWIND, NEXT JS, NodeJS
 - 👯 Currently working as project manager @popstand
 - 📫 How to contact me: pedro.alcarin@gmail.com
 - ⚡ Curiosity: I know how to cook
