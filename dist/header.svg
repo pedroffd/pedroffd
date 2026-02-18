@@ -1,29 +1,48 @@
 <svg width="600" height="120" viewBox="0 0 600 120" fill="none" xmlns="http://www.w3.org/2000/svg">
   <style>
-    .card { fill: transparent; stroke: #d0d7de; stroke-width: 1px; }
-    .name { font: 600 24px -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif; fill: #1f2328; }
+    .name { font: 700 28px -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif; fill: #1f2328; }
     .role { font: 400 16px -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif; fill: #636c76; }
-    .label { font: 500 11px -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif; fill: #0069da; background: #ddf4ff; }
+    .tags { font: 600 10px -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif; fill: #0969da; letter-spacing: 1px; text-transform: uppercase; }
+    .border { stroke: #d0d7de; stroke-width: 1px; }
+    .hud-line { stroke: #0969da; stroke-width: 2px; }
     
+    @keyframes pulse {
+      0% { opacity: 0.3; }
+      50% { opacity: 1; }
+      100% { opacity: 0.3; }
+    }
+    .status-dot { fill: #2da44e; animation: pulse 2s infinite; }
+
     @media (prefers-color-scheme: dark) {
-      .card { stroke: #30363d; }
       .name { fill: #e6edf3; }
       .role { fill: #848d97; }
-      .label { fill: #2f81f7; }
+      .tags { fill: #2f81f7; }
+      .border { stroke: #30363d; }
+      .hud-line { stroke: #2f81f7; }
+      .status-dot { fill: #3fb950; }
     }
   </style>
   
-  <rect x="0.5" y="0.5" width="599" height="119" rx="10" class="card"/>
+  <rect x="0.5" y="0.5" width="599" height="119" rx="10" class="border" fill="transparent"/>
   
-  <g transform="translate(25, 35)">
+  <!-- HUD Decorative elements -->
+  <path d="M0.5 20 L0.5 0.5 L20 0.5" class="hud-line" fill="none"/>
+  <path d="M579.5 0.5 L599.5 0.5 L599.5 20" class="hud-line" fill="none"/>
+  <path d="M0.5 100 L0.5 119.5 L20 119.5" class="hud-line" fill="none"/>
+  <path d="M579.5 119.5 L599.5 119.5 L599.5 100" class="hud-line" fill="none"/>
+
+  <g transform="translate(30, 45)">
     <text x="0" y="0" class="name">Pedro Souza</text>
-    <text x="0" y="28" class="role">Senior Full-Stack Engineer  •  Fintech &amp; AI</text>
-    
-    <g transform="translate(0, 50)">
-       <rect width="130" height="22" rx="11" fill="#ddf4ff">
-         <style>@media (prefers-color-scheme: dark) { rect { fill: #0d1117; stroke: #2f81f7; stroke-width: 1; } }</style>
-       </rect>
-       <text x="65" y="15" text-anchor="middle" class="label" style="font-size: 10px;">SYSTEM OPERATIONAL</text>
-    </g>
+    <text x="0" y="25" class="role">Senior Full-Stack Engineer  •  Fintech &amp; AI Specialist</text>
+    <text x="0" y="45" class="tags">React • Node.js • Python • AWS • LLM</text>
+  </g>
+
+  <!-- Status Indicator -->
+  <g transform="translate(500, 45)">
+    <circle cx="0" cy="0" r="4" class="status-dot"/>
+    <text x="12" y="4" style="font: 500 10px sans-serif; fill: #636c76;">SYSTEM_ONLINE</text>
+    <style>
+      @media (prefers-color-scheme: dark) { text { fill: #848d97; } }
+    </style>
   </g>
 </svg>

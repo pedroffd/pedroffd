@@ -1,11 +1,12 @@
 <svg width="300" height="200" viewBox="0 0 300 200" fill="none" xmlns="http://www.w3.org/2000/svg">
   <style>
     .card { fill: transparent; stroke: #d0d7de; stroke-width: 1px; }
-    .title { font: 600 16px -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif; fill: #1f2328; }
-    .lang-name { font: 400 13px -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif; fill: #1f2328; }
-    .lang-percent { font: 400 12px -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif; fill: #636c76; }
-    .bar-bg { fill: #ebf0f4; rx: 2.5; }
-    .bar-fill { fill: #0969da; rx: 2.5; }
+    .title { font: 600 14px sans-serif; fill: #1f2328; text-transform: uppercase; letter-spacing: 1px; }
+    .lang-name { font: 500 12px sans-serif; fill: #1f2328; }
+    .lang-percent { font: 400 11px sans-serif; fill: #636c76; }
+    .bar-bg { fill: #ebf0f4; rx: 1; }
+    .bar-fill { fill: #0969da; rx: 1; }
+    .hud-accent { stroke: #0969da; stroke-width: 1.5; }
     
     @media (prefers-color-scheme: dark) {
       .card { stroke: #30363d; }
@@ -14,19 +15,28 @@
       .lang-percent { fill: #848d97; }
       .bar-bg { fill: #30363d; }
       .bar-fill { fill: #2f81f7; }
+      .hud-accent { stroke: #2f81f7; }
     }
   </style>
 
-  <rect x="0.5" y="0.5" width="299" height="199" rx="10" class="card"/>
+  <rect x="0.5" y="0.5" width="299" height="199" rx="8" class="card"/>
+  <path d="M299.5 15 L299.5 0.5 L284.5 0.5" class="hud-accent" fill="none"/>
   
-  <text x="25" y="35" class="title">Technical Focus</text>
+  <text x="20" y="32" class="title">Technical Focus</text>
   
   {% for lang in stats.top_languages %}
-  <g transform="translate(25, {{ 65 + loop.index0 * 26 }})">
+  <g transform="translate(20, {{ 65 + loop.index0 * 28 }})">
     <text x="0" y="0" class="lang-name">{{ lang.name }}</text>
-    <text x="250" y="0" class="lang-percent" text-anchor="end">{{ lang.percent }}%</text>
-    <rect x="0" y="8" width="250" height="5" class="bar-bg"/>
-    <rect x="0" y="8" width="{{ lang.percent * 2.5 }}" height="5" class="bar-fill"/>
+    <text x="260" y="0" class="lang-percent" text-anchor="end">{{ lang.percent }}%</text>
+    <rect x="0" y="8" width="260" height="4" class="bar-bg"/>
+    <rect x="0" y="8" width="{{ lang.percent * 2.6 }}" height="4" class="bar-fill"/>
+    
+    <!-- Segment lines for the bar -->
+    {% for i in range(1, 10) %}
+      <line x1="{{ i * 26 }}" y1="8" x2="{{ i * 26 }}" y2="12" stroke="white" stroke-width="1" opacity="0.3">
+        <style>@media (prefers-color-scheme: dark) { line { stroke: #0d1117; } }</style>
+      </line>
+    {% endfor %}
   </g>
   {% endfor %}
 </svg>
