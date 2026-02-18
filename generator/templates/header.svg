@@ -1,0 +1,29 @@
+<svg width="600" height="120" viewBox="0 0 600 120" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    .card { fill: transparent; stroke: #d0d7de; stroke-width: 1px; }
+    .name { font: 600 24px -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif; fill: #1f2328; }
+    .role { font: 400 16px -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif; fill: #636c76; }
+    .label { font: 500 11px -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif; fill: #0069da; background: #ddf4ff; }
+    
+    @media (prefers-color-scheme: dark) {
+      .card { stroke: #30363d; }
+      .name { fill: #e6edf3; }
+      .role { fill: #848d97; }
+      .label { fill: #2f81f7; }
+    }
+  </style>
+  
+  <rect x="0.5" y="0.5" width="599" height="119" rx="10" class="card"/>
+  
+  <g transform="translate(25, 35)">
+    <text x="0" y="0" class="name">Pedro Souza</text>
+    <text x="0" y="28" class="role">Senior Full-Stack Engineer  •  Fintech &amp; AI</text>
+    
+    <g transform="translate(0, 50)">
+       <rect width="130" height="22" rx="11" fill="#ddf4ff">
+         <style>@media (prefers-color-scheme: dark) { rect { fill: #0d1117; stroke: #2f81f7; stroke-width: 1; } }</style>
+       </rect>
+       <text x="65" y="15" text-anchor="middle" class="label" style="font-size: 10px;">SYSTEM OPERATIONAL</text>
+    </g>
+  </g>
+</svg>

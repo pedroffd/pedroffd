@@ -1,0 +1,32 @@
+<svg width="300" height="200" viewBox="0 0 300 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    .card { fill: transparent; stroke: #d0d7de; stroke-width: 1px; }
+    .title { font: 600 16px -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif; fill: #1f2328; }
+    .lang-name { font: 400 13px -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif; fill: #1f2328; }
+    .lang-percent { font: 400 12px -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif; fill: #636c76; }
+    .bar-bg { fill: #ebf0f4; rx: 2.5; }
+    .bar-fill { fill: #0969da; rx: 2.5; }
+    
+    @media (prefers-color-scheme: dark) {
+      .card { stroke: #30363d; }
+      .title { fill: #e6edf3; }
+      .lang-name { fill: #e6edf3; }
+      .lang-percent { fill: #848d97; }
+      .bar-bg { fill: #30363d; }
+      .bar-fill { fill: #2f81f7; }
+    }
+  </style>
+
+  <rect x="0.5" y="0.5" width="299" height="199" rx="10" class="card"/>
+  
+  <text x="25" y="35" class="title">Technical Focus</text>
+  
+  {% for lang in stats.top_languages %}
+  <g transform="translate(25, {{ 65 + loop.index0 * 26 }})">
+    <text x="0" y="0" class="lang-name">{{ lang.name }}</text>
+    <text x="250" y="0" class="lang-percent" text-anchor="end">{{ lang.percent }}%</text>
+    <rect x="0" y="8" width="250" height="5" class="bar-bg"/>
+    <rect x="0" y="8" width="{{ lang.percent * 2.5 }}" height="5" class="bar-fill"/>
+  </g>
+  {% endfor %}
+</svg>
