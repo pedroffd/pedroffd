@@ -27,9 +27,9 @@
   
   <g transform="translate(20, 65)">
     <text x="0" y="0" class="lang-name">TypeScript</text>
-    <text x="260" y="0" class="lang-percent" text-anchor="end">45.2%</text>
+    <text x="260" y="0" class="lang-percent" text-anchor="end">81.9%</text>
     <rect x="0" y="8" width="260" height="4" class="bar-bg"/>
-    <rect x="0" y="8" width="117.52000000000001" height="4" class="bar-fill"/>
+    <rect x="0" y="8" width="212.94000000000003" height="4" class="bar-fill"/>
     
     <!-- Segment lines for the bar -->
     
@@ -72,10 +72,10 @@
   </g>
   
   <g transform="translate(20, 93)">
-    <text x="0" y="0" class="lang-name">Python</text>
-    <text x="260" y="0" class="lang-percent" text-anchor="end">30.5%</text>
+    <text x="0" y="0" class="lang-name">Java</text>
+    <text x="260" y="0" class="lang-percent" text-anchor="end">10.7%</text>
     <rect x="0" y="8" width="260" height="4" class="bar-bg"/>
-    <rect x="0" y="8" width="79.3" height="4" class="bar-fill"/>
+    <rect x="0" y="8" width="27.82" height="4" class="bar-fill"/>
     
     <!-- Segment lines for the bar -->
     
@@ -119,9 +119,9 @@
   
   <g transform="translate(20, 121)">
     <text x="0" y="0" class="lang-name">JavaScript</text>
-    <text x="260" y="0" class="lang-percent" text-anchor="end">15.3%</text>
+    <text x="260" y="0" class="lang-percent" text-anchor="end">3.2%</text>
     <rect x="0" y="8" width="260" height="4" class="bar-bg"/>
-    <rect x="0" y="8" width="39.78" height="4" class="bar-fill"/>
+    <rect x="0" y="8" width="8.32" height="4" class="bar-fill"/>
     
     <!-- Segment lines for the bar -->
     
@@ -164,10 +164,10 @@
   </g>
   
   <g transform="translate(20, 149)">
-    <text x="0" y="0" class="lang-name">Rust</text>
-    <text x="260" y="0" class="lang-percent" text-anchor="end">5.0%</text>
+    <text x="0" y="0" class="lang-name">CSS</text>
+    <text x="260" y="0" class="lang-percent" text-anchor="end">1.2%</text>
     <rect x="0" y="8" width="260" height="4" class="bar-bg"/>
-    <rect x="0" y="8" width="13.0" height="4" class="bar-fill"/>
+    <rect x="0" y="8" width="3.12" height="4" class="bar-fill"/>
     
     <!-- Segment lines for the bar -->
     
@@ -210,10 +210,10 @@
   </g>
   
   <g transform="translate(20, 177)">
-    <text x="0" y="0" class="lang-name">Go</text>
-    <text x="260" y="0" class="lang-percent" text-anchor="end">4.0%</text>
+    <text x="0" y="0" class="lang-name">Ruby</text>
+    <text x="260" y="0" class="lang-percent" text-anchor="end">0.8%</text>
     <rect x="0" y="8" width="260" height="4" class="bar-bg"/>
-    <rect x="0" y="8" width="10.4" height="4" class="bar-fill"/>
+    <rect x="0" y="8" width="2.08" height="4" class="bar-fill"/>
     
     <!-- Segment lines for the bar -->
     
