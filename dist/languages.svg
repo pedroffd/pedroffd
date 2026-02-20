@@ -27,9 +27,9 @@
   
   <g transform="translate(20, 65)">
     <text x="0" y="0" class="lang-name">TypeScript</text>
-    <text x="260" y="0" class="lang-percent" text-anchor="end">81.9%</text>
+    <text x="260" y="0" class="lang-percent" text-anchor="end">82.0%</text>
     <rect x="0" y="8" width="260" height="4" class="bar-bg"/>
-    <rect x="0" y="8" width="212.94000000000003" height="4" class="bar-fill"/>
+    <rect x="0" y="8" width="213.20000000000002" height="4" class="bar-fill"/>
     
     <!-- Segment lines for the bar -->
     
