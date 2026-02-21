@@ -73,9 +73,9 @@
   
   <g transform="translate(20, 93)">
     <text x="0" y="0" class="lang-name">Java</text>
-    <text x="260" y="0" class="lang-percent" text-anchor="end">10.7%</text>
+    <text x="260" y="0" class="lang-percent" text-anchor="end">10.6%</text>
     <rect x="0" y="8" width="260" height="4" class="bar-bg"/>
-    <rect x="0" y="8" width="27.82" height="4" class="bar-fill"/>
+    <rect x="0" y="8" width="27.56" height="4" class="bar-fill"/>
     
     <!-- Segment lines for the bar -->
     
