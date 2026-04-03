@@ -27,9 +27,9 @@
   
   <g transform="translate(20, 65)">
     <text x="0" y="0" class="lang-name">TypeScript</text>
-    <text x="260" y="0" class="lang-percent" text-anchor="end">80.1%</text>
+    <text x="260" y="0" class="lang-percent" text-anchor="end">80.3%</text>
     <rect x="0" y="8" width="260" height="4" class="bar-bg"/>
-    <rect x="0" y="8" width="208.26" height="4" class="bar-fill"/>
+    <rect x="0" y="8" width="208.78" height="4" class="bar-fill"/>
     
     <!-- Segment lines for the bar -->
     
@@ -119,9 +119,9 @@
   
   <g transform="translate(20, 121)">
     <text x="0" y="0" class="lang-name">JavaScript</text>
-    <text x="260" y="0" class="lang-percent" text-anchor="end">4.2%</text>
+    <text x="260" y="0" class="lang-percent" text-anchor="end">4.1%</text>
     <rect x="0" y="8" width="260" height="4" class="bar-bg"/>
-    <rect x="0" y="8" width="10.920000000000002" height="4" class="bar-fill"/>
+    <rect x="0" y="8" width="10.66" height="4" class="bar-fill"/>
     
     <!-- Segment lines for the bar -->
     
@@ -165,9 +165,9 @@
   
   <g transform="translate(20, 149)">
     <text x="0" y="0" class="lang-name">CSS</text>
-    <text x="260" y="0" class="lang-percent" text-anchor="end">3.3%</text>
+    <text x="260" y="0" class="lang-percent" text-anchor="end">3.2%</text>
     <rect x="0" y="8" width="260" height="4" class="bar-bg"/>
-    <rect x="0" y="8" width="8.58" height="4" class="bar-fill"/>
+    <rect x="0" y="8" width="8.32" height="4" class="bar-fill"/>
     
     <!-- Segment lines for the bar -->
     
@@ -211,9 +211,9 @@
   
   <g transform="translate(20, 177)">
     <text x="0" y="0" class="lang-name">Vue</text>
-    <text x="260" y="0" class="lang-percent" text-anchor="end">1.6%</text>
+    <text x="260" y="0" class="lang-percent" text-anchor="end">1.5%</text>
     <rect x="0" y="8" width="260" height="4" class="bar-bg"/>
-    <rect x="0" y="8" width="4.16" height="4" class="bar-fill"/>
+    <rect x="0" y="8" width="3.9000000000000004" height="4" class="bar-fill"/>
     
     <!-- Segment lines for the bar -->
     
