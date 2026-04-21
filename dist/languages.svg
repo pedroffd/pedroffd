@@ -27,9 +27,9 @@
   
   <g transform="translate(20, 65)">
     <text x="0" y="0" class="lang-name">TypeScript</text>
-    <text x="260" y="0" class="lang-percent" text-anchor="end">82.7%</text>
+    <text x="260" y="0" class="lang-percent" text-anchor="end">82.6%</text>
     <rect x="0" y="8" width="260" height="4" class="bar-bg"/>
-    <rect x="0" y="8" width="215.02" height="4" class="bar-fill"/>
+    <rect x="0" y="8" width="214.76" height="4" class="bar-fill"/>
     
     <!-- Segment lines for the bar -->
     
@@ -165,9 +165,9 @@
   
   <g transform="translate(20, 149)">
     <text x="0" y="0" class="lang-name">CSS</text>
-    <text x="260" y="0" class="lang-percent" text-anchor="end">2.9%</text>
+    <text x="260" y="0" class="lang-percent" text-anchor="end">3.0%</text>
     <rect x="0" y="8" width="260" height="4" class="bar-bg"/>
-    <rect x="0" y="8" width="7.54" height="4" class="bar-fill"/>
+    <rect x="0" y="8" width="7.800000000000001" height="4" class="bar-fill"/>
     
     <!-- Segment lines for the bar -->
     
